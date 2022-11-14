@@ -1,5 +1,5 @@
 <template>
-    <div class='travel-section-root'>
+    <div id='travel-section' class='travel-section-root'>
         <div class='travel-section-header'>
             I'm from <span class='green'>Atlanta</span>,
         </div>
@@ -98,7 +98,8 @@
         .travel-section-root {
             margin: auto;
             width: 57vw;
-            margin-top: 23vh;
+            padding-top: 10vh;
+            margin-top: 13vh;
         }
 
         .travel-section-header {

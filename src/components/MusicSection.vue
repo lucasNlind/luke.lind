@@ -1,5 +1,5 @@
 <template>
-    <div class='music-section-root'>
+    <div id='music-section' class='music-section-root'>
         <div class='music-section-header'>
             I also make <span class='yellow'>music</span>.
         </div>
@@ -58,7 +58,8 @@
 
         .music-section-root {
             margin: auto;
-            margin-top: 23vh;
+            padding-top: 10vh;
+            margin-top: 13vh;
             width: 57vw;
         }
 

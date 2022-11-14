@@ -1,5 +1,5 @@
 <template>
-    <div class='hero-section-root'>
+    <div id='landing-page' class='hero-section-root'>
         <Transition name="fade">
             <span class='header-text-wrapper'>Hej, I'm</span>
         </Transition>
@@ -180,7 +180,6 @@
                 this.showName = true;
             }, 2000);
 
-
             setTimeout(() => {
                 this.showHeaderTwo = true;
             }, 3250);
@@ -217,6 +216,7 @@
             flex-direction: column;
             font-size: 1.6vw;
             cursor: default;
+            scroll-behavior: smooth;
         }
 
         .circles-wrapper {
@@ -274,6 +274,7 @@
             font-size: 2vw;
             animation-name: fadeIn;
             animation-duration: 5s;
+            margin-bottom: 23vh;
         }
 
         @keyframes fadeIn {

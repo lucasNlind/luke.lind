@@ -3,21 +3,21 @@
     <div class='navigation-bar-root'>
         <div class='navigation-bar-section-left'>
             <div class='navigation-bar-link-home'>
-                <span class='link'>home</span>
+                <span class='link' @click='scrollToHome()'>home</span>
             </div>
         </div>
         <div class='navigation-bar-section-right'>
-            <div class='navigation-bar-link' @click='scrollToProjects()'>
-                <span class='link link-red'>projects</span>
+            <div class='navigation-bar-link'>
+                <a href='#projects-section' class='link link-red'>projects</a>
             </div>
-            <div class='navigation-bar-link' @click='scrollToWork()'>
-                <span class='link link-green'>work</span>
+            <div class='navigation-bar-link'>
+                <a href='#work-section' class='link link-green'>work</a>
             </div>
-            <div class='navigation-bar-link' @click='scrollToTravel()'>
-                <span class='link link-blue'>travel</span>
+            <div class='navigation-bar-link'>
+                <a href='#travel-section' class='link link-blue'>travel</a>
             </div>
-            <div class='navigation-bar-link' @click='scrollToMusic()'>
-                <span class='link link-yellow'>music</span>
+            <div class='navigation-bar-link'>
+                <a href='#music-section' class='link link-yellow'>music</a>
             </div>
         </div>
     </div>
@@ -31,17 +31,8 @@
     export default {
         name: 'NavigationBar',
         methods: {
-            scrollToProjects() {
-                window.scrollTo( { top: 700, behavior: 'smooth' } );
-            },
-            scrollToWork() {
-                window.scrollTo( { top: 1925, behavior: 'smooth' } );
-            },
-            scrollToTravel() {
-                window.scrollTo( { top: 2800, behavior: 'smooth' } );
-            },
-            scrollToMusic() {
-                window.scrollTo( { top: 4475, behavior: 'smooth' } );
+            scrollToHome() {
+                window.scrollTo( { top: 0, behavior: 'smooth' } );
             }
         }
     }
@@ -77,6 +68,7 @@
             z-index: 1;
             background-color: white;
             opacity: 0.8;
+            scroll-behavior: smooth;
         }
 
         .navigation-bar-section-left {
@@ -104,6 +96,9 @@
 
         .link {
             padding-bottom: 1vh;
+            text-decoration: none;
+            color: black;
+            scroll-behavior: smooth;
         }
 
         .link-red:hover {
