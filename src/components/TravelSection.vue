@@ -1,5 +1,5 @@
 <template>
-    <div id='travel-section' class='travel-section-root'>
+    <div id='travel' class='travel-section-root'>
         <div class='travel-section-header'>
             I'm from <span class='green'>Atlanta</span>,
         </div>

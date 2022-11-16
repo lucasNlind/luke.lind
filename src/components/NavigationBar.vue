@@ -1,23 +1,23 @@
 <template>
     <link rel="stylesheet" href="https://use.typekit.net/tru2emh.css" />
-    <div class='navigation-bar-root'>
+    <div id="home" class='navigation-bar-root'>
         <div class='navigation-bar-section-left'>
             <div class='navigation-bar-link-home'>
-                <span class='link' @click='scrollToHome()'>home</span>
+                <a href='#home' class='link' @click='scrollToHome()'>home</a>
             </div>
         </div>
         <div class='navigation-bar-section-right'>
             <div class='navigation-bar-link'>
-                <a href='#projects-section' class='link link-red'>projects</a>
+                <a href='#projects' class='link link-red'>projects</a>
             </div>
             <div class='navigation-bar-link'>
-                <a href='#work-section' class='link link-green'>work</a>
+                <a href='#work' class='link link-green'>work</a>
             </div>
             <div class='navigation-bar-link'>
-                <a href='#travel-section' class='link link-blue'>travel</a>
+                <a href='#travel' class='link link-blue'>travel</a>
             </div>
             <div class='navigation-bar-link'>
-                <a href='#music-section' class='link link-yellow'>music</a>
+                <a href='#music' class='link link-yellow'>music</a>
             </div>
         </div>
     </div>

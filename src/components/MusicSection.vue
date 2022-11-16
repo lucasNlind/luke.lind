@@ -1,5 +1,5 @@
 <template>
-    <div id='music-section' class='music-section-root'>
+    <div id='music' class='music-section-root'>
         <div class='music-section-header'>
             I also make <span class='yellow'>music</span>.
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div id='work-section' class='work-section-root'>
+    <div id='work' class='work-section-root'>
         <div class='work-section-header'>
             Here's where I've worked
         </div>
