@@ -1,5 +1,5 @@
 <template>
-    <div id='projects-section' class='projects-section-root'>
+    <div id='projects' class='projects-section-root'>
         <div class='project-section-header'>
             I'm really into <span class='red'>coding</span> and <span class='blue'>design</span>.
         </div>
