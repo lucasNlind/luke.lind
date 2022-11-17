@@ -20,10 +20,10 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: avenir next;
+  src: url("https://use.typekit.net/tru2emh.css");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   scroll-behavior: smooth;
 }

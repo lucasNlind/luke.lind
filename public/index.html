@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta property="og:title" content='Luke Lind'/>
+    <meta property="og:image" content="https://storage.googleapis.com/luke-lind-portfolio-assets/thumbnail.png"/>
+    <meta property="og:description" content='My Portfolio'/>
+    <meta property="og:url" content='https://lucasnlind.github.io/luke.lind/'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <link rel="icon" href="<%= BASE_URL %>favicon.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/tru2emh.css" />
+    <title>Luke Lind</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

@@ -254,7 +254,7 @@
 
         .ball-graphic {
             position: relative;
-            left: 10vw;
+            left: 27vw;
             bottom: 12vh;
             height: 75vh;
         }

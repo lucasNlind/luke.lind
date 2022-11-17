@@ -1,4 +1,5 @@
 <template>
+    <link rel="stylesheet" href="https://use.typekit.net/tru2emh.css" />
     <div id='landing-page' class='hero-section-root'>
         <Transition name="fade">
             <span class='header-text-wrapper'>Hej, I'm</span>
@@ -195,8 +196,12 @@
                 It's actually not terrible. Check it out:
             </div>
             <div class='section-music-mobile-image-wrapper'>
-                <img src='https://storage.googleapis.com/luke-lind-portfolio-assets/heaven-cover.png' class='section-music-mobile-image'/>
-                <img src='https://storage.googleapis.com/luke-lind-portfolio-assets/lean-on-cover.jpg' class='section-music-mobile-image'/>
+                <a target='_blank' href='https://open.spotify.com/album/0rSpEnVXirPKcltA2Gzlkw?si=Nt3KsjIkSae5zKRk7WAcpg'>
+                    <img src='https://storage.googleapis.com/luke-lind-portfolio-assets/heaven-cover.png' class='section-music-mobile-image'/>
+                </a>
+                <a target='_blank' href='https://open.spotify.com/album/0a497HzTX1MGOMx4ZPTvRC?si=cqwAw2StTO281XN1gbz7aw'>
+                    <img src='https://storage.googleapis.com/luke-lind-portfolio-assets/lean-on-cover.jpg' class='section-music-mobile-image'/>
+                </a>
             </div>
         </div>
         <div class='section-footer-mobile'>
@@ -413,8 +418,8 @@
         }
 
         .section-music-mobile-image {
-            height: 25vw;
-            width: 25vw;
+            height: 30vw;
+            width: 30vw;
             margin-right: 6vw;
         }
 

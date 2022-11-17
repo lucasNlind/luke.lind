@@ -7,8 +7,12 @@
             It’s actually not terrible. Check it out:
         </div>
         <div class='album-image-container'>
-            <a target='_blank' href='https://open.spotify.com/album/0rSpEnVXirPKcltA2Gzlkw?si=Nt3KsjIkSae5zKRk7WAcpg'><img class='album-cover' src='https://storage.googleapis.com/luke-lind-portfolio-assets/heaven-cover.png'/></a>
-            <a target='_blank' href='https://open.spotify.com/album/0a497HzTX1MGOMx4ZPTvRC?si=cqwAw2StTO281XN1gbz7aw'><img class='album-cover' src='https://storage.googleapis.com/luke-lind-portfolio-assets/lean-on-cover.jpg'/></a>
+            <a target='_blank' href='https://open.spotify.com/album/0rSpEnVXirPKcltA2Gzlkw?si=Nt3KsjIkSae5zKRk7WAcpg'>
+                <img class='album-cover' src='https://storage.googleapis.com/luke-lind-portfolio-assets/heaven-cover.png'/>
+            </a>
+            <a target='_blank' href='https://open.spotify.com/album/0a497HzTX1MGOMx4ZPTvRC?si=cqwAw2StTO281XN1gbz7aw'>
+                <img class='album-cover' src='https://storage.googleapis.com/luke-lind-portfolio-assets/lean-on-cover.jpg'/>
+            </a>
         </div>
         <div class='music-section-sub-header'>
             Playlists too :)
